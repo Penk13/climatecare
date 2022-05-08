@@ -126,7 +126,7 @@ STATIC_ROOT = BASE_DIR / "static-live" / "static-root"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_URL = "/media/"
+MEDIA_URL = "/climatecare/"
 
 MEDIA_ROOT = BASE_DIR / "static-live" / "media-root"
 
