@@ -1,7 +1,15 @@
-.main-navbar{
-    background-color: #5CCE8A;
+/* Body */
+body{
+  font-family: 'Nunito', sans-serif;
 }
 
-.navbar-nav li a{
-    color: white !important;
+/* Navbar */
+.nav-link-text{
+  color: #8D8B8B;
+}
+
+.navbar-btn{
+	width: 150px;
+	background-color: #008937;    
+	border-radius: 40px;
 }
