@@ -8,8 +8,21 @@ body{
   color: #8D8B8B;
 }
 
-.navbar-btn{
+.get-started-btn{
 	width: 150px;
+	height: 54px;
 	background-color: #008937;    
 	border-radius: 40px;
+}
+
+.pricing-btn{
+	width: 150px;
+	height: 54px;
+	border: 3px solid #008937;
+	background-color: white;
+	border-radius: 40px;
+}
+
+.pricing-btn a{
+	color: #008937;
 }

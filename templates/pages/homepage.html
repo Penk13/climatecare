@@ -2,8 +2,20 @@
 
 {% block content %} 
 
-<div class="d-flex p-5">
-  
+<div class="d-flex">
+  <div class="col-7 p-5 mt-5">
+		<h1 class="fw-bold">Let’s Hack The Climate Through Education!</h1>
+		<h2 class="fs-4">Elevate your knowledge through environmental related course here, and let’s hack the climate with us for the better world!</h2>
+		<button type="button" class="btn get-started-btn my-5">
+			<a class="text-white fw-bold text-decoration-none p-3" href="{% url 'page:homepage' %}">Get Started</a>
+		</button>
+		<button type="button" class="btn pricing-btn my-5 mx-3">
+			<a class="fw-bold text-decoration-none p-3" href="{% url 'page:homepage' %}">Pricing</a>
+		</button>
+	</div>
+	<div class="col-5 p-5">
+		<img class="img-fluid" src="{% static 'img/cc1.jpg' %}" alt="ClimateCare" />
+	</div>
 </div>
 
 {% endblock content %}
