@@ -26,3 +26,14 @@ body{
 .pricing-btn a{
 	color: #008937;
 }
+
+.fa-circle{
+	color: #008937;
+}
+
+.fa-earth-asia,
+.fa-location-dot,
+.fa-clock,
+.fa-people-group{
+	color: white;
+}
