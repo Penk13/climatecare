@@ -31,9 +31,30 @@ body{
 	color: #008937;
 }
 
+.about-us-content-logo{
+	filter:drop-shadow(3px 3px 5px rgb(100, 100, 100))
+}
+
 .fa-earth-asia,
 .fa-location-dot,
 .fa-clock,
-.fa-people-group{
+.fa-people-group,
+.fa-graduation-cap,
+.fa-bullhorn,
+.fa-seedling,
+.fa-store{
 	color: white;
+}
+
+.program-card-logo {
+	position: absolute;
+	top: -80px;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.program-card{
+	height: 250px;
+	width: 30%;
+	border-radius: 30px;
 }
