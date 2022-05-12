@@ -42,7 +42,8 @@ body{
 .fa-graduation-cap,
 .fa-bullhorn,
 .fa-seedling,
-.fa-store{
+.fa-store,
+.fa-check{
 	color: white;
 }
 
@@ -57,4 +58,30 @@ body{
 	height: 250px;
 	width: 30%;
 	border-radius: 30px;
+}
+
+.pricing-card{
+	height: 700px;
+	border-radius: 30px;
+}
+
+.small-text-price{
+	font-size: 1rem;
+}
+
+.price-header{
+	margin-top: 100px;
+}
+
+.price-category {
+    color: #fff;
+	font-size: 32px;
+	width: 250px;
+	height: 50px;
+	display: block;
+	/* -webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%); */
+	clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+	margin-top: 20px;
+	margin-left: -17px;
+	position: absolute;
 }
