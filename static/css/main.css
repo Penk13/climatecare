@@ -28,7 +28,7 @@ body{
 }
 
 .fa-circle{
-	color: #008937;
+	color: #5CCE8A;
 }
 
 .about-us-content-logo{
@@ -71,6 +71,7 @@ body{
 
 .price-header{
 	margin-top: 100px;
+	height: 110px;
 }
 
 .price-category {
@@ -88,4 +89,8 @@ body{
 
 .footer{
 	background-color: #5CCE8A;
+}
+
+.socmed-circle{
+	color: #008937;
 }
