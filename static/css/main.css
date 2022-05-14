@@ -3,6 +3,41 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 
+/* Vector Background */
+.vbg{
+	position: absolute;
+	z-index: -1;
+}
+#vbg-1{
+	right: 0px;
+	height: 45em;
+	width: 45em;
+}
+#vbg-2{
+	left: 0px;
+	top: 40em;
+	height: 40em;
+	width: 45em;
+}
+#vbg-3{
+	right: 0px;
+	top: 80em;
+	height: 45em;
+	width: 45em;
+}
+#vbg-4{
+	left: 0px;
+	top: 120em;
+	height: 45em;
+	width: 45em;
+}
+#vbg-5{
+	right: 0px;
+	top: 160em;
+	height: 35em;
+	width: 35em;
+}
+
 /* Navbar */
 .nav-link-text{
   color: #8D8B8B;
